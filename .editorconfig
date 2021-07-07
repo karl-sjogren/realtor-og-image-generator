@@ -148,8 +148,9 @@ dotnet_diagnostic.RCS1221.severity = none
 dotnet_diagnostic.RCS1224.severity = none
 dotnet_diagnostic.RCS0003.severity = warning
 dotnet_diagnostic.RCS1036.severity = warning
-dotnet_diagnostic.RCS1046.severity = none
+dotnet_diagnostic.RCS1046.severity = warning
 dotnet_diagnostic.RCS1094.severity = warning
+dotnet_diagnostic.RCS1128.severity = none # Use coalesce expression.
 
 # Other diagnostics
 

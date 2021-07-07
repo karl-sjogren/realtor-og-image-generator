@@ -31,4 +31,8 @@ Promise.all([
   waitForImage(property.propertyImageUrl),
   waitForImage(property.realtorImageUrl)
 ])
-  .then(() => console.log('Document ready')); // This signals that the screenshot can be taken
+  .then(() => {
+    // This signals that the screenshot can be taken
+    console.log('Document ready');
+    window.documentReady = true;
+  });

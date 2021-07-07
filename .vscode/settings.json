@@ -1,0 +1,31 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.DS_Store": true,
+        "**/bin": true,
+        "**/obj": true,
+        "**/local.chromium": true
+    },
+    "[javascript]": {
+        "editor.tabSize": 2
+    },
+    "[json]": {
+        "editor.tabSize": 2
+    },
+    "[csharp]": {
+        "editor.tabSize": 4
+    },
+    "[html]": {
+        "editor.tabSize": 2
+    },
+    "[css]": {
+        "editor.tabSize": 2
+    },
+    "[csproj]": {
+        "editor.tabSize": 2
+    },
+    "css.validate": false,
+    "stylelint.enable": true,
+    "stylelint.packageManager": "yarn",
+    "omnisharp.enableRoslynAnalyzers": false
+}
