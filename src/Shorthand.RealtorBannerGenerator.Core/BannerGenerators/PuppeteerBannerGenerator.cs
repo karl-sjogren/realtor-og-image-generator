@@ -31,7 +31,7 @@ namespace Shorthand.RealtorBannerGenerator.Core.BannerGenerators {
                 var browserFetcher = new BrowserFetcher();
 
                 // Check if the browser is already downloaded, if not then download it.
-                if(browserFetcher.LocalRevisions().Contains(BrowserFetcher.DefaultChromiumRevision)) {
+                if(!browserFetcher.LocalRevisions().Contains(BrowserFetcher.DefaultChromiumRevision)) {
                     _logger.LogInformation("Downloading Chromium for Puppeteer.");
                     await browserFetcher.DownloadAsync(BrowserFetcher.DefaultChromiumRevision);
                 }
